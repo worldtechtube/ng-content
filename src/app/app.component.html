@@ -1,0 +1,25 @@
+<h1 style="color:white">Content projection in Angular using ng-content:</h1>
+<app-main [input1]="'This is content1'">
+    <u class="c2">This is content2</u>
+    <b class="c3">This is content3</b>
+    <i class="c4">This is content4</i>
+</app-main>
+
+<app-main [input1]="'This is content1'">
+    <input class="c2" placeholder="Enter value" />
+    <table style="border:black; border:double;" class="c3">
+        <tr>
+            <th>Heading1</th>
+            <th>Heading2</th>
+        </tr>
+        <tr>
+            <td>Row1 element1</td>
+            <td>Row1 element2</td>
+        </tr>
+        <tr>
+            <td>Row2 element1</td>
+            <td>Row2 element2</td>
+        </tr>
+    </table>
+    <input type="file" class="c4" />
+</app-main>

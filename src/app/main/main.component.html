@@ -1,0 +1,23 @@
+<div style="border:double; width:30%; background-color: aqua;">
+    <h1 style="border: dotted;">Component</h1>
+    <div><h3>Dynamic content1: {{input1}} </h3></div>
+    <hr>
+    <div>
+        <h3>Dynamic content2:
+            <ng-content select='.c2'></ng-content>
+        </h3>
+    </div>
+    <hr>
+    <div>
+        <h3>Dynamic content3:
+            <ng-content select='.c3'></ng-content>
+        </h3>
+    </div>
+    <hr>
+    <div>
+        <h3>Dynamic content4:
+            <ng-content select='.c4'></ng-content>
+        </h3>
+    </div>
+    <hr>
+</div>
